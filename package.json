@@ -1,0 +1,30 @@
+{
+  "name": "node-js-express-snippets",
+  "displayName": "Node JS,Express Snippets",
+  "description": "Code Snippets for Backend",
+  "publisher": "suriyagokul",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suriyagokul/vscode-extension"
+  },
+  "icon": "express.png",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
